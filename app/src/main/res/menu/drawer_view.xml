@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_dra_favorite"
+            android:icon="@drawable/favoriteselected"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/id_dra_download"
+            android:icon="@drawable/download"
+            android:title="Downloded" />
+
+        <item
+            android:id="@+id/id_dra_playslist"
+            android:icon="@drawable/download"
+            android:title="PlayList"/>
+
+        <item
+            android:id="@+id/id_dra_share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/id_dra_rateus"
+            android:icon="@drawable/rating"
+            android:title="Rate Us" />
+    </group>
+
+
+</menu>
